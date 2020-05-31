@@ -58,6 +58,11 @@ p {
   padding-top: 20px;
 }
 
+#application {
+  display: flex;
+  justify-content: center;
+}
+
 i {
   font-size: 30px;
   padding-top: 30px;
@@ -81,5 +86,9 @@ i {
   }
   p {
     font-size: 38px;
+  }
+  #application {
+    width: 80%;
+    height: auto;
   }
 }
