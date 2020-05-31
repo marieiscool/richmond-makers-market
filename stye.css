@@ -91,4 +91,7 @@ i {
     width: 80%;
     height: auto;
   }
+  nav {
+    justify-content: space-around;
+  }
 }
