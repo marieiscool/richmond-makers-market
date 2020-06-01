@@ -63,6 +63,11 @@ p {
   justify-content: center;
 }
 
+.freebirdFormviewerViewCenteredContent {
+    margin: 0;
+    max-width: 1000vw;
+  }
+
 i {
   font-size: 30px;
   padding-top: 30px;
