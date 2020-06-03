@@ -87,7 +87,6 @@ i {
 @media only screen and (max-width: 525px) {
   .header-img {
     width: 100%;
-    height: auto;
     margin: 0;
   }
   p {
