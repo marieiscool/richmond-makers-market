@@ -4,10 +4,6 @@ body {
 
 .header-img {
   display: flex;
-  margin: 50px;
-  width: 50%;
-  height: 50%;
-  max-width: 70%;
 }
 
 header {
@@ -17,7 +13,7 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 24px;
   background-color: #000;
   color: #fff;
@@ -52,7 +48,7 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 .description {
-  font-size: 32px;
+  font-size: 22px;
   text-align: justify;
   line-height: 1.1;
   padding-top: 20px;
@@ -62,11 +58,6 @@ p {
   display: flex;
   justify-content: center;
 }
-
-.freebirdFormviewerViewCenteredContent {
-    margin: 0;
-    max-width: 1000vw;
-  }
 
 i {
   font-size: 30px;
@@ -93,10 +84,15 @@ i {
     font-size: 38px;
   }
   #application {
-    width: 90%;
+    width: 100%;
     height: auto;
-  }
-  nav {
-    justify-content: space-between;
+    margin: 5%;
   }
 }
+
+  @media only screen and (min-width: 526px) {
+    .header-img {
+  max-width: 70%;
+}
+  }
+
